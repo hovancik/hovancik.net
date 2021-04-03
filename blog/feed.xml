@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jan Hovancik</title>
+  <subtitle>Open-source enthusiast, connecting the dots in Product teams.</subtitle>
+  <id>http://hovancik.net/blog</id>
+  <link href="http://hovancik.net/blog"/>
+  <link href="http://hovancik.net/blog/feed.xml" rel="self"/>
+  <updated>2021-04-03T08:10:00+00:00</updated>
+  <author>
+    <name>Jan Hovancik</name>
+  </author>
+  <entry>
+    <title>Introducing LaterOn - The reminder app</title>
+    <link rel="alternate" href="http://hovancik.net/blog/2021/04/03/introducing-lateron-the-reminder-app/"/>
+    <id>http://hovancik.net/blog/2021/04/03/introducing-lateron-the-reminder-app/</id>
+    <published>2021-04-03T08:10:00+00:00</published>
+    <updated>2021-04-03T09:40:00+00:00</updated>
+    <author>
+      <name>Jan Hovancik</name>
+    </author>
+    <content type="html">&lt;p&gt;One of the much requested features for &lt;a href="/stretchly"&gt;Stretchly&lt;/a&gt; is having custom reminders:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;let me have water reminder every &lt;code&gt;X&lt;/code&gt; hours,&lt;/li&gt;
+  &lt;li&gt;remind me to stop working at &lt;code&gt;Y&lt;/code&gt;,&lt;/li&gt;
+  &lt;li&gt;tell me to do &lt;code&gt;Z&lt;/code&gt; at &lt;code&gt;W pm&lt;/code&gt;,&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and such.&lt;/p&gt;
+
+&lt;p&gt;While I agree that they are useful for that person (and probably would be for different people as well), that's not what I am trying to do with Stretchly. Stretchly is the break time reminder app: it reminds to take a break and it gives &lt;a href="/stretchly/research"&gt;science-based&lt;/a&gt; ideas, but it's up to the users how they are gonna implement them.&lt;/p&gt;
+
+&lt;p&gt;Plus I don't want to complicate the code needlessly.&lt;/p&gt;
+
+&lt;h3 id="but"&gt;But&lt;/h3&gt;
+
+&lt;p&gt;When users asked me for such a feature, I always pointed out that there are apps that do the custom reminders. And that is so. &lt;em&gt;But&lt;/em&gt; they do that in terms of &lt;code&gt;on specific day remind me to do X&lt;/code&gt;. That's not very good, as what people were asking for was more of &lt;code&gt;on specific times, every day or so, remind me to do Y&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id="welcome-lateron"&gt;Welcome, LaterOn!&lt;/h3&gt;
+
+&lt;p&gt;Therefore I decided to hack-around an app that would do exactly that.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://lateron.app"&gt;LaterOn&lt;/a&gt; lives in tray and then sends system notifications based on the scheduled reminders that user creates. Here's an example of the default notification that users get at the start of the app:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/img/lateron-default-notif.png" alt="Default LaterOn notification" /&gt;&lt;/p&gt;
+
+&lt;p&gt;As notifications go, user can specify a title and body of said notification.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/img/lateron-reminders.png" alt="LaterOn reminders management" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Users can view their existing reminders from tray "Reminders" menu. Example notification is show, together with the next occurrences and the rule. It's then also possible to edit, remove and add new reminders.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://lateron.app"&gt;So yeah, go download it and give it a try!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(LaterOn is rather basic, right now, but works just fine for me :) )&lt;/em&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>2020 Top DiscoverBSD and BSDSec articles</title>
+    <link rel="alternate" href="http://hovancik.net/blog/2021/02/13/2020-top-discoverbsd-and-bsdsec-articles/"/>
+    <id>http://hovancik.net/blog/2021/02/13/2020-top-discoverbsd-and-bsdsec-articles/</id>
+    <published>2021-02-13T14:45:00+00:00</published>
+    <updated>2021-04-03T09:40:00+00:00</updated>
+    <author>
+      <name>Jan Hovancik</name>
+    </author>
+    <content type="html">&lt;p&gt;That time of year again :) I took articles based on the number of visits, so there are also older articles.&lt;/p&gt;
+
+&lt;h3 id="discoverbsd"&gt;DiscoverBSD&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.tumfatig.net/20190208/customizing-openbsd-xenodm/"&gt;Customizing OpenBSD xenodm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.ixsystems.com/blog/wireguard-on-freenas-11-3/"&gt;How To Enable Wireguard on FreeNAS 11.3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://xosc.org/pinebookpro.html"&gt;Install OpenBSD 6.7-current on a PineBook Pro 64&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=H8ihW0m3bRQ&amp;amp;utm_source=discoverbsd"&gt;Testing Linux Steam Proton on GhostBSD (FreeBSD) with BSD linuxulator&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://linux-audit.com/freebsd-hardening-lynis/"&gt;FreeBSD hardening with Lynis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://geekhack.org/index.php?topic=99246.0&amp;amp;utm_source=discoverbsd"&gt;NomadBSD review&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.reddit.com/r/BSD/comments/gkvcs6/people_who_use_bsd_as_their_desktop_os_why_do_you/"&gt;People who use BSD as their desktop os, why do you choose BSD over Linux?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.tumfatig.net/20190131/customized-resolution-for-openbsd-in-virtualbox/"&gt;Customized resolution for OpenBSD in VirtualBox&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blog.madadipouya.com/2018/12/19/running-freebsd-on-pinebook-a-review/"&gt;Running FreeBSD on Pinebook, a review&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://h3artbl33d.nl/blog/nextcloud-on-openbsd"&gt;NextCloud on OpenBSD&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="bsdsec"&gt;BSDSec&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://bsdsec.net/articles/freebsd-announce-freebsd-security-advisory-freebsd-sa-20-20-ipv6"&gt; FreeBSD Security Advisory FreeBSD-SA-20:20.ipv6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://bsdsec.net/articles/freebsd-announce-freebsd-quarterly-status-report-third-quarter-2020"&gt; FreeBSD Quarterly Status Report - Third Quarter 2020&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://bsdsec.net/articles/openbsd-6-7-released-may-19-2020"&gt;OpenBSD 6.7 released - May 19, 2020&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://bsdsec.net/articles/freebsd-announce-freebsd-security-advisory-freebsd-sa-20-29-bhyve_svm"&gt; FreeBSD Security Advisory FreeBSD-SA-20:29.bhyve_svm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://bsdsec.net/articles/freebsd-announce-freebsd-quarterly-status-report-second-quarter-2020"&gt; FreeBSD Quarterly Status Report - Second Quarter 2020&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Stretchly 1.4.0 is now available</title>
+    <link rel="alternate" href="http://hovancik.net/blog/2020/12/25/stretchly-1-4-0-is-now-available/"/>
+    <id>http://hovancik.net/blog/2020/12/25/stretchly-1-4-0-is-now-available/</id>
+    <published>2020-12-25T08:00:00+00:00</published>
+    <updated>2021-04-03T09:40:00+00:00</updated>
+    <author>
+      <name>Jan Hovancik</name>
+    </author>
+    <content type="html">&lt;p&gt;Hi everyone,&lt;/p&gt;
+
+&lt;p&gt;I am really happy to announce, that &lt;strong&gt;version 1.4 of &lt;a href="/stretchly"&gt;&lt;em&gt;Stretchly&lt;/em&gt;&lt;/a&gt; is here!&lt;/strong&gt; You can download it from &lt;a href="/stretchly/downloads"&gt;downloads&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;h3 id="added"&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Better handling of app errors: error will ask user to report issue&lt;/li&gt;
+  &lt;li&gt;Esperanto translations&lt;/li&gt;
+  &lt;li&gt;Norwegian translations&lt;/li&gt;
+  &lt;li&gt;Snow white theme&lt;/li&gt;
+  &lt;li&gt;experimental Linux builds for arm&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="changed"&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Updated many translations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="fixed"&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;notification of new version being showed even disabled&lt;/li&gt;
+  &lt;li&gt;browser tab non-responsive after resuming&lt;/li&gt;
+  &lt;li&gt;don't show notification title for macOS Big Sur&lt;/li&gt;
+  &lt;li&gt;DND mode in macOS Big Sur&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks to everyone for support on &lt;a href="https://github.com/sponsors/hovancik"&gt;Github&lt;/a&gt; and  &lt;a href="https://www.patreon.com/hovancik"&gt;Patreon&lt;/a&gt;!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Stretchly 1.3.0 is now available</title>
+    <link rel="alternate" href="http://hovancik.net/blog/2020/11/08/stretchly-1-3-0-is-now-available/"/>
+    <id>http://hovancik.net/blog/2020/11/08/stretchly-1-3-0-is-now-available/</id>
+    <published>2020-11-08T08:00:00+00:00</published>
+    <updated>2021-04-03T09:40:00+00:00</updated>
+    <author>
+      <name>Jan Hovancik</name>
+    </author>
+    <content type="html">&lt;p&gt;Hi everyone,&lt;/p&gt;
+
+&lt;p&gt;I am really happy to announce, that &lt;strong&gt;version 1.3 of &lt;a href="/stretchly"&gt;&lt;em&gt;Stretchly&lt;/em&gt;&lt;/a&gt; is here!&lt;/strong&gt; You can download it from &lt;a href="/stretchly/downloads"&gt;downloads&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;h3 id="added"&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;control a running instance from command line&lt;/li&gt;
+  &lt;li&gt;advanced option to disable check for new version&lt;/li&gt;
+  &lt;li&gt;new break ideas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="changed"&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Updated Italian translations&lt;/li&gt;
+  &lt;li&gt;Updated Spanish translations&lt;/li&gt;
+  &lt;li&gt;Updated German translations&lt;/li&gt;
+  &lt;li&gt;prevent redundant title notification on Windows 10 (20H2 Update)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="fixed"&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;problem with DoNotDisturb being ignored when resuming breaks&lt;/li&gt;
+  &lt;li&gt;taskbar visibility issue on Windows&lt;/li&gt;
+  &lt;li&gt;issue with idle time and breaks causing negative timers&lt;/li&gt;
+  &lt;li&gt;issue with Pause until morning in some timezones&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks to everyone for support on &lt;a href="https://github.com/sponsors/hovancik"&gt;Github&lt;/a&gt; and  &lt;a href="https://www.patreon.com/hovancik"&gt;Patreon&lt;/a&gt;!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Few things I learned in first 3 months as a Proxy Product Owner</title>
+    <link rel="alternate" href="http://hovancik.net/blog/2020/10/12/few-things-i-learned-in-first-3-months-as-a-proxy-product-owner/"/>
+    <id>http://hovancik.net/blog/2020/10/12/few-things-i-learned-in-first-3-months-as-a-proxy-product-owner/</id>
+    <published>2020-10-12T16:08:00+00:00</published>
+    <updated>2021-04-03T09:40:00+00:00</updated>
+    <author>
+      <name>Jan Hovancik</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;Three months ago I started to work as a Proxy Product Owner (Proxy PO), so I thought it might be interesting to reflect on it and maybe write a thing or two about it, for the benefit of other people starting in a similar role or me coming back later.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id="so-whats-a-proxy-po"&gt;So what's a Proxy PO?&lt;/h3&gt;
+
+&lt;p&gt;If you want a specific definition, you can find a couple of them online…  But, for context of this article, &lt;strong&gt;Proxy PO is a member of an agile team, with a subset of responsibilities and powers of a PO&lt;/strong&gt;. PO should still be part of the team, so one might use this role when PO can not fully concentrate on a product (eg. she has multiple ones), is not co-located with the rest of a team, and so on.&lt;/p&gt;
+
+&lt;h3 id="1"&gt;1.&lt;/h3&gt;
+
+&lt;p&gt;When I started to search for a PM/PO job about a half year ago, I didn't even know that such a role existed. When I looked up a definition, the consensus (= few articles I read, so I might be totally off) seemed to be that it's not really a good role to be in, because you hardly have real ownership and people might look at you as an assistant/secretary to the PO.&lt;/p&gt;
+
+&lt;p&gt;After 3 months I can tell that that's not true: &lt;strong&gt;Whether you're PO, PM, Proxy PO, or developer; how much ownership over a product you can yield only depends on the amount you're willing to take and to demand.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You might not always be as successful in getting it as you would like to, but, more often then not, it's just a question of time. Why would you get hired otherwise?&lt;/p&gt;
+
+&lt;h3 id="2"&gt;2.&lt;/h3&gt;
+
+&lt;p&gt;That leads to the second point: &lt;strong&gt;Trust required for ownership is not an easy thing to get.&lt;/strong&gt; But don't worry, you can help yourself by doing what you're already good at.&lt;/p&gt;
+
+&lt;h3 id="3"&gt;3.&lt;/h3&gt;
+
+&lt;p&gt;And that's figuring out &lt;em&gt;people&lt;/em&gt;'s needs. I am not &lt;em&gt;not using&lt;/em&gt; word &lt;em&gt;customer&lt;/em&gt; by accident, because by &lt;em&gt;people&lt;/em&gt; I mean your stakeholders, PO, testers; basically everyone. &lt;strong&gt;Treat your organization and your team as you would a customer: understand their problems and then prioritize solving them.&lt;/strong&gt; In most cases, this will move the product forward as well.&lt;/p&gt;
+
+&lt;p&gt;A word of warning, though: Make sure people want your help.&lt;/p&gt;
+
+&lt;h3 id="4"&gt;4.&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Start at an interview.&lt;/strong&gt; That's the one trick I can't recommend enough:  try to figure out what kind of problems they are looking to solve with the role, then ask yourself whether that's interesting for you.&lt;/p&gt;
+
+&lt;h3 id="5"&gt;5.&lt;/h3&gt;
+
+&lt;p&gt;Being "only" a Proxy might be even good for you. &lt;strong&gt;It's always easier to assert ownership over time than trying to hold on to it from day one.&lt;/strong&gt; Being Proxy also gives you more freedom to pick up stuff you're more comfortable with.&lt;/p&gt;
+
+&lt;h3 id="summa-summarum"&gt;Summa summarum&lt;/h3&gt;
+
+&lt;p&gt;Summa summarum, I am pretty happy with the last three months. If you see such a role being advertised, it's definitely worth interviewing.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Stretchly is now available in Snap Store</title>
+    <link rel="alternate" href="http://hovancik.net/blog/2020/10/03/stretchly-is-now-available-in-snap-store/"/>
+    <id>http://hovancik.net/blog/2020/10/03/stretchly-is-now-available-in-snap-store/</id>
+    <published>2020-10-03T11:29:00+00:00</published>
+    <updated>2021-04-03T09:40:00+00:00</updated>
+    <author>
+      <name>Jan Hovancik</name>
+    </author>
+    <content type="html">&lt;p&gt;Hi everyone,&lt;/p&gt;
+
+&lt;p&gt;even though I personally don't like snaps and I am not using them, Stretchly is now available in &lt;a href="https://snapcraft.io/stretchly"&gt;Snap Store&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If nothing breaks, I'll keep posting new versions there as I release them.&lt;/p&gt;
+
+&lt;p&gt;Enjoy.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Stretchly 1.2.0 released</title>
+    <link rel="alternate" href="http://hovancik.net/blog/2020/10/03/stretchly-1-2-0-released/"/>
+    <id>http://hovancik.net/blog/2020/10/03/stretchly-1-2-0-released/</id>
+    <published>2020-10-03T05:30:00+00:00</published>
+    <updated>2021-04-03T09:40:00+00:00</updated>
+    <author>
+      <name>Jan Hovancik</name>
+    </author>
+    <content type="html">&lt;p&gt;Hi everyone,&lt;/p&gt;
+
+&lt;p&gt;I am really happy to announce, that &lt;strong&gt;version 1.2 of &lt;a href="/stretchly"&gt;&lt;em&gt;Stretchly&lt;/em&gt;&lt;/a&gt; is here!&lt;/strong&gt; You can download it from &lt;a href="/stretchly/downloads"&gt;downloads&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;h3 id="added"&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;new break ideas&lt;/li&gt;
+  &lt;li&gt;Contributors can sync preferences&lt;/li&gt;
+  &lt;li&gt;Nepali translations&lt;/li&gt;
+  &lt;li&gt;snap package&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="changed"&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;disallow "Reset breaks" when in break with Strick Mode&lt;/li&gt;
+  &lt;li&gt;break window size is now dynamic (relative to screen size)&lt;/li&gt;
+  &lt;li&gt;updated Korean translation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="fixed"&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;fullscreen breaks (Windows)&lt;/li&gt;
+  &lt;li&gt;downgraded Electron and disabled macOS dock icon to fix fullscreen issues&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks to everyone for support on &lt;a href="https://www.patreon.com/hovancik"&gt;Patreon&lt;/a&gt; and &lt;a href="https://github.com/sponsors/hovancik"&gt;Github&lt;/a&gt;!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Stretchly 1.1.0 released</title>
+    <link rel="alternate" href="http://hovancik.net/blog/2020/09/12/stretchly-1-1-0-released/"/>
+    <id>http://hovancik.net/blog/2020/09/12/stretchly-1-1-0-released/</id>
+    <published>2020-09-12T11:37:00+00:00</published>
+    <updated>2021-04-03T09:40:00+00:00</updated>
+    <author>
+      <name>Jan Hovancik</name>
+    </author>
+    <content type="html">&lt;p&gt;Hi everyone,&lt;/p&gt;
+
+&lt;p&gt;I am really happy to announce, that &lt;strong&gt;version 1.1 of &lt;a href="/stretchly"&gt;&lt;em&gt;Stretchly&lt;/em&gt;&lt;/a&gt; is here!&lt;/strong&gt; You can download it from &lt;a href="/stretchly/downloads"&gt;downloads&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;h3 id="added"&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;show Contributor Settings in tray menu for Contributors&lt;/li&gt;
+  &lt;li&gt;breaks are paused if the Windows 10 Focus Assist mode is enabled&lt;/li&gt;
+  &lt;li&gt;added log file for debug&lt;/li&gt;
+  &lt;li&gt;users can choose between a transparent or a fully opaque theme in the Theme Preferences&lt;/li&gt;
+  &lt;li&gt;users can choose the opacity value for the transparent theme in the Contributor Preferences&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="changed"&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;updated few translations&lt;/li&gt;
+  &lt;li&gt;bigger range for Mini Break duration&lt;/li&gt;
+  &lt;li&gt;preferences navigation menu visible when scrolling down&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks to everyone for support on &lt;a href="https://www.patreon.com/hovancik"&gt;Patreon&lt;/a&gt; and &lt;a href="https://github.com/sponsors/hovancik"&gt;Github&lt;/a&gt;!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Working with firebase-tools from docker with docker-compose</title>
+    <link rel="alternate" href="http://hovancik.net/blog/2020/08/27/working-with-firebase-tools-from-docker-with-docker-compose/"/>
+    <id>http://hovancik.net/blog/2020/08/27/working-with-firebase-tools-from-docker-with-docker-compose/</id>
+    <published>2020-08-27T17:18:00+00:00</published>
+    <updated>2021-04-03T09:40:00+00:00</updated>
+    <author>
+      <name>Jan Hovancik</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;code&gt;docker&lt;/code&gt; is kinda nice&lt;sup&gt;citation needed&lt;/sup&gt; and I like to use it with &lt;code&gt;docker-compose&lt;/code&gt;. So when I decided to learn how to deploy simple app to &lt;code&gt;Firebase&lt;/code&gt;, I wanted to do it with them, obviously.&lt;/p&gt;
+
+&lt;p&gt;What I wanted to do was:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;create &lt;code&gt;docker&lt;/code&gt; container&lt;/li&gt;
+  &lt;li&gt;init &lt;code&gt;Svelte&lt;/code&gt; app in it&lt;/li&gt;
+  &lt;li&gt;install &lt;code&gt;firebase-tools&lt;/code&gt; and deploy the app with them&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I won't be talking about getting &lt;code&gt;Firebase&lt;/code&gt; account and all that jazz and I expect &lt;code&gt;docker&lt;/code&gt; and &lt;code&gt;docker-compose&lt;/code&gt; are all up and running.&lt;/p&gt;
+
+&lt;p&gt;Also, I am definitely not saying that this is the best way to do this, it's just something that I've tried and worked for me, so I wanna keep it for a future reference.&lt;/p&gt;
+
+&lt;h3 id="docker-container"&gt;Docker container&lt;/h3&gt;
+
+&lt;p&gt;Let's create a container first. We'll need a few files, but let's start with a empty folder, where we will put some files.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-bash"&gt;$ mkdir rather-great-app
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And files:&lt;/p&gt;
+
+&lt;h4 id="dockerfile"&gt;Dockerfile&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;FROM node:12.14.1
+WORKDIR /rather-great-app
+RUN npm i -g npm
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id="docker-composeyml"&gt;docker-compose.yml&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;version: '3'
+services:
+  web:
+    build: .
+    volumes:
+      - .:/rather-great-app
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Let's build it (and run this every time we make an update to the &lt;code&gt;docker&lt;/code&gt; stuff):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-bash"&gt;$ docker-compose build
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id="svelte-app"&gt;Svelte app&lt;/h3&gt;
+
+&lt;p&gt;If all went well, we are now ready to play. So let's init basic &lt;code&gt;Svelte&lt;/code&gt; app:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-bash"&gt;$ docker-compose run --rm web npx degit sveltejs/template --force
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We're using &lt;code&gt;force&lt;/code&gt; as we are not starting with empty destinantion, but that's fine. We can also install packages:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-bash"&gt;$ docker-compose run --rm web npm i
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Let's update our docker stuff a bit more, so that we can start the app.&lt;/p&gt;
+
+&lt;h4 id="dockerfile-1"&gt;Dockerfile&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;FROM node:12.14.1
+WORKDIR /rather-great-app
+COPY package.json package-lock.json ./
+RUN npm i -g npm
+RUN npm i
+COPY . .
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id="docker-composeyml-1"&gt;docker-compose.yml&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;version: '3'
+services:
+  web:
+    build: .
+    command: npm run dev
+    volumes:
+      - .:/rather-great-app
+    ports:
+      - "5000:5000"    
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id="packagejson"&gt;package.json&lt;/h4&gt;
+
+&lt;p&gt;We are in &lt;code&gt;docker&lt;/code&gt;, so we need to update how we run our &lt;code&gt;Svelte&lt;/code&gt; app (if we wanna access it outside of container). Update &lt;code&gt;start&lt;/code&gt; in &lt;code&gt;package.json&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-json"&gt;    "start": "sirv public --host"
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now we're good to go:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-bash"&gt;$ docker-compose up
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In browser, on &lt;code&gt;http://localhost:5000/&lt;/code&gt; we now have our &lt;code&gt;Svelte&lt;/code&gt; Hello World app running and we can start working on deploy.&lt;/p&gt;
+
+&lt;h3 id="firebase-cli"&gt;Firebase CLI&lt;/h3&gt;
+
+&lt;p&gt;Let's make sure our container has the &lt;code&gt;firebase-tools&lt;/code&gt; installed.&lt;/p&gt;
+
+&lt;h4 id="dockerfile-2"&gt;Dockerfile&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;FROM node:12.14.1
+WORKDIR /rather-great-app
+COPY package.json package-lock.json ./
+RUN npm i -g npm
+RUN npm i
+RUN npm install -g firebase-tools
+COPY . .
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id="deploy"&gt;Deploy&lt;/h3&gt;
+
+&lt;p&gt;Here comes the fun part.&lt;/p&gt;
+
+&lt;p&gt;In short, when setting up &lt;code&gt;Firebase&lt;/code&gt;, you do &lt;code&gt;firebase login &amp;amp;&amp;amp; firebase init &amp;amp;&amp;amp; firebase deploy&lt;/code&gt;. Login takes you to a browser, which we don't have in our container, where you login and are redirected to localhost with specific port, so that &lt;code&gt;firebase-tools&lt;/code&gt; knows it's really you.&lt;/p&gt;
+
+&lt;p&gt;We make some changes to &lt;code&gt;docker&lt;/code&gt;, so that we can do all that browser thingy outside of container.&lt;/p&gt;
+
+&lt;h4 id="dockerfile-3"&gt;Dockerfile&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;FROM node:12.14.1
+WORKDIR /rather-great-app
+COPY package.json package-lock.json ./
+RUN npm i -g npm
+RUN npm i
+RUN npm install -g firebase-tools
+EXPOSE 9005
+COPY . .
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id="docker-composeyml-2"&gt;docker-compose.yml&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;version: '3'
+services:
+  web:
+    build: .
+    command: npm run dev
+    volumes:
+      - .:/rather-great-app
+    ports:
+      - "5000:5000"
+      - "9005:9005"
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Once this is done, we can &lt;code&gt;up&lt;/code&gt; the container, and try to log in:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;docker-compose exec web firebase login
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When you open the suggested link in browser and login, all should go well and &lt;code&gt;firebase-tools&lt;/code&gt; in your container should recognize you.&lt;/p&gt;
+
+&lt;p&gt;Now you can &lt;code&gt;exec&lt;/code&gt; &lt;code&gt;firebase init&lt;/code&gt; and &lt;code&gt;firebase deploy&lt;/code&gt; in similar fashion and access your app online :)&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Stretchly 1.0 is here!</title>
+    <link rel="alternate" href="http://hovancik.net/blog/2020/07/18/stretchly-1-0-is-here/"/>
+    <id>http://hovancik.net/blog/2020/07/18/stretchly-1-0-is-here/</id>
+    <published>2020-07-18T11:22:00+00:00</published>
+    <updated>2021-04-03T09:40:00+00:00</updated>
+    <author>
+      <name>Jan Hovancik</name>
+    </author>
+    <content type="html">&lt;p&gt;Hi everyone,&lt;/p&gt;
+
+&lt;p&gt;I am really happy to announce, that &lt;strong&gt;version 1.0 of &lt;a href="/stretchly"&gt;&lt;em&gt;Stretchly&lt;/em&gt;&lt;/a&gt; is here!&lt;/strong&gt; You can download it from &lt;a href="/stretchly/downloads"&gt;downloads&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/img/1.0.png" alt="Stretchly 1.0" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Version 1.0 is big milestone for Stretchly, and getting there was huge learning experience. Thanks to everyone who contributed to Stretchly since it's birth in 2016! (Jul 10, 2016 is the date of &lt;a href="https://github.com/hovancik/stretchly/tree/1a4817679dc840716ae7694c1bbb1f357a571097"&gt;the first commit&lt;/a&gt;.) I am really happy that it has community of users and contributors.&lt;/p&gt;
+
+&lt;p&gt;Special thanks goes to &lt;a href="http://www.colinshanley.com/"&gt;Colin Shanley&lt;/a&gt; who designed the new logo and UI/UX for 1.0! He is awesome and you should hire him ;]&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;So what does 1.0 mean?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1.0 is a rework of original Stretchly mission: remind you to take breaks when working on your computer.&lt;/p&gt;
+
+&lt;p&gt;As Stretchly become bigger (in term of functionality and user-base), the issues with UI/UX become more visible and it also gained some technical debt. 1.0 is trying to remedy some of those. With help of &lt;a href="http://www.colinshanley.com/"&gt;professional designer&lt;/a&gt;, we now have better UI, UX, new awesome icons and also Dark mode. I hope you will find all aspects of Stretchly much more self-explanatory and easier to use.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/img/1.0.preferences.png" alt="Stretchly 1.0" /&gt;&lt;/p&gt;
+
+&lt;p&gt;A lot has also changed under the hood, some issues were fixed and new features added and we now also have more break ideas.&lt;/p&gt;
+
+&lt;h3 id="added"&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;apk package format&lt;/li&gt;
+  &lt;li&gt;added Hungarian translation&lt;/li&gt;
+  &lt;li&gt;added ability to change the keyboard shortcuts for Skip/Postpone breaks via config.json&lt;/li&gt;
+  &lt;li&gt;show Paused icon when Breaks are paused in Natural breaks mode&lt;/li&gt;
+  &lt;li&gt;show Paused icon when Breaks are paused in Do Not Disturb mode&lt;/li&gt;
+  &lt;li&gt;Dark mode for interface&lt;/li&gt;
+  &lt;li&gt;new break ideas&lt;/li&gt;
+  &lt;li&gt;new Icon&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="changed"&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;changed app name from &lt;code&gt;stretchly&lt;/code&gt; to &lt;code&gt;Stretchly&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;this might change location of preferences file, so you might need to set up your preferences again or copy the file&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;don't hide dock icon on macOS&lt;/li&gt;
+  &lt;li&gt;updated some translations&lt;/li&gt;
+  &lt;li&gt;rework UI in all windows and Tray menu&lt;/li&gt;
+  &lt;li&gt;synchronized tray status messages (tooltip, menu)&lt;/li&gt;
+  &lt;li&gt;better format remaining time&lt;/li&gt;
+  &lt;li&gt;default icon to colorful&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="fixed"&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;adds workaround for electron's Linux/Windows fullscreen issues&lt;/li&gt;
+  &lt;li&gt;notify of new version only if new version is higher then current&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="removed"&gt;Removed&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;removed tutorial, now linking to Features webpage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks to everyone for support on &lt;a href="https://www.patreon.com/hovancik"&gt;Patreon&lt;/a&gt; and &lt;a href="https://github.com/sponsors/hovancik"&gt;Github&lt;/a&gt;!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>SMS messages from Slovak/Czech government about COVID-19 (Feb-May 2020)</title>
+    <link rel="alternate" href="http://hovancik.net/blog/2020/06/14/sms-messages-from-slovak-czech-government-about-covid-19-feb-may-2020/"/>
+    <id>http://hovancik.net/blog/2020/06/14/sms-messages-from-slovak-czech-government-about-covid-19-feb-may-2020/</id>
+    <published>2020-06-14T18:44:00+00:00</published>
+    <updated>2021-04-03T09:40:00+00:00</updated>
+    <author>
+      <name>Jan Hovancik</name>
+    </author>
+    <content type="html">&lt;p&gt;What follows are the SMS messages that I have received on my Czech and Slovak SIM cards (from respective governments) during February-May 2020 because of the COVID-19 pandemic.&lt;/p&gt;
+
+&lt;p&gt;Maybe someone someday will find them useful :)&lt;/p&gt;
+
+&lt;h3 id="context"&gt;Context&lt;/h3&gt;
+
+&lt;p&gt;I am a Slovak national and all the time I was located in &lt;strong&gt;Prague, Czechia&lt;/strong&gt;, except 4th to 11th March, when I was traveling in &lt;strong&gt;Spain&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Format: &lt;code&gt;Sender&lt;/code&gt;, &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;time&lt;/code&gt; and &lt;code&gt;text&lt;/code&gt; as my phone shows it.&lt;/p&gt;
+
+&lt;h3 id="slovak-sim-card"&gt;Slovak SIM card&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;+421259785978, 27th February 2020, 19:48&lt;/strong&gt;&lt;br /&gt;
+Pre vyskyt koronavirusu odporuca MZVEZ po navrate do SR sledovat svoj zdravotny stav pocas 14 dni. Pri priznakoch nakazy telefonicky kontaktujte lekara.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;+421259785978, 6th March 2020, 18:00&lt;/strong&gt;&lt;br /&gt;
+UPOZORNENIE! Pre narast vyskytu koronavirusu odporuca MZVEZ po navrate do SR sledovat svoj zdravotny stav. Pri priznakoch nakazy TELEFONICKY kontaktujte lekara.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MZ_SR, 7th March 2020, 13:51&lt;/strong&gt;&lt;br /&gt;
+Dolezite! Pre koronavirus nechodte k lekarovi osobne,ak to nie je nutne.Vyuzite predpisovanie liekov cez e-recept,liek si vyzdvihnete v ktorejkolvek lekarni.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MZ_SR, 7th March 2020, 14:13&lt;/strong&gt;&lt;br /&gt;
+Dolezite! V suvislosti s koronavirusom upozornujeme,aby ste pri podozreni kontaktovali lekara len telefonicky.K dispozicii su infolinky a cislo 0800221234.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;+421259785978, 9th March 2020, 20:56&lt;/strong&gt;&lt;br /&gt;
+Upozornenie! Koronavirus: Po navrate z krajin Taliansko, Cina, Juzna Korea a Iran je povinna 14 denna karantena. Telefonicky kontaktujte svojho vseob. lekara.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;+421259785978, 12th March 2020, 20:48&lt;/strong&gt;&lt;br /&gt;
+UPOZORNENIE!Coronavirus   od 13.3.2020 07,00 vsetky osoby prichadzajuce zo zahranicia do SR su povinne zostat v karantene 14 dni. Viac info: www.uvzsr.sk&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;+421259785978, 12th March 2020, 21:45&lt;/strong&gt;&lt;br /&gt;
+Upozornenie!Coronavirus-Od 13.3. s  medzinarodne letiska v SR uzavrete,platia obmedzenia v medzinarodnej zeleznicnej a autobusovej doprave tranzitujucej SR.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MV_SR, 13th March 2020, 14:17&lt;/strong&gt;&lt;br /&gt;
+Upozornenie!!! Koronavirus: Ak ste prisli zo zahranicia, dodrzujte povinnu 14-dnovu karantenu! Za nedodrzanie je sankcia 1659 eur.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;+421259785978, 13th March 2020, 23:45&lt;/strong&gt;&lt;br /&gt;
+KORONAVIRUS! Z dovodu dynamickeho zavadzania obmedzeni pri cestovani v zahranici odporucame sledovat http://www.mzv.sk/aktuality/koronavirus-2019&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;+421259785978, 28th March 2020, 18:12&lt;/strong&gt;&lt;br /&gt;
+Cesko od polnoci 30.3.2020 do odvolania obmedzuje podmienky tranzitu svojim uzemim. Pre viac info sledujte webstranku najblizsieho zastupitelskeho uradu SR.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;+421259785978, 6th April 2020, 06:03&lt;/strong&gt;&lt;br /&gt;
+Osoby vstupujuce do SR od 6.4.2020, 7:00 budu v izolacii v statnych zariadeniach. Registrujte sa na navraty.mzv.sk. Vynimky najdete na covid19.mzv.sk&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Urad_VZ, 15th April 2020, 18:39&lt;/strong&gt;&lt;br /&gt;
+Dakujeme, ze ste boli ste cez sviatky doma. Jedina ochrana pred pandemiou je len nasa disciplina. Vydrzme, zvladneme to! Dakujeme. Urad verej. zdravotnictva&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;+421259785978, 17th April 2020, 19:48&lt;/strong&gt;&lt;br /&gt;
+UPOZORNENIE: registraciu pred prichodom do SR na stranke navraty.mzv.sk je potrebne od 20.4. vykonat najneskor 72hod pred planovanym prichodom na hranicu.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;+421259785978, 1st May 2020, 10:12&lt;/strong&gt;&lt;br /&gt;
+Vzhladom na naplnene kapacity v statnej karantene, zvazte nevyhnutnost cestovania do SR.&lt;/p&gt;
+
+&lt;h3 id="czech-sim-card"&gt;Czech SIM card&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;4603, 5th March 2020, 10:55&lt;/strong&gt;&lt;br /&gt;
+Sdeleni MZCR: Dobry den, cestujete-li do zeme se zvysenym vyskytem koronaviru (aktualni prehled na www.mzcr.cz), dodrzujte pokyny daneho statu a nezapomente na doporuceni uvedena na webu MZCR. Dekuji. Ministr zdravotnictvi CR&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4603, 11th March 2020, 15:54&lt;/strong&gt;&lt;br /&gt;
+Sdeleni MZCR: Vitejte zpet v CR. Vsem, kdo prijizdeji z Italie, je v dusledku mimoradneho opatreni narizena 14denni karantena. Cestujici, kteri nemaji zadne priznaky, maji povinnost kontaktovat TELEFONICKY sveho osetrujiciho lekare. Je nezbytne, abyste od sveho prijezdu po celou dobu zustali v karantene! Cestujici (bez ohledu na vychozi destinaci), kteri maji teplotu nad 38C, BUDOU IHNED TELEFONICKY KONTAKTOVAT LINKU 112. Vice informaci na www.mzcr.cz. Dekuji. Ministr zdravotnictvi CR&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4603, 14th March 2020, 14:16&lt;/strong&gt;&lt;br /&gt;
+Sdeleni Vlady CR: Do 24. 3. budou uzavreny vsechny obchody, S VYJIMKOU prodejen potravin, lekaren, drogerii, prodejen operatoru a dalsich. Podrobnosti vlada.cz&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4603, 16th March 2020, 16:46&lt;/strong&gt;&lt;br /&gt;
+Sdeleni Vlady CR: Kvuli sireni koronaviru je do 24.3. omezen volny pohyb osob s vyjimkou cest do zamestnani, potravin, aj. Dalsi vyjimky na vlada.cz. Dekujeme.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4603, 16th March 2020, 21:28&lt;/strong&gt;&lt;br /&gt;
+Sdeleni Vlady CR: Kvuli sireni koronaviru je do 24.3. omezen volny pohyb osob s vyjimkou cest do zamestnani, potravin, aj. Dalsi vyjimky na vlada.cz. Dekujeme.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
