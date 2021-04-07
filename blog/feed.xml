@@ -5,16 +5,57 @@
   <id>http://hovancik.net/blog</id>
   <link href="http://hovancik.net/blog"/>
   <link href="http://hovancik.net/blog/feed.xml" rel="self"/>
-  <updated>2021-04-03T08:10:00+00:00</updated>
+  <updated>2021-04-07T01:00:00+00:00</updated>
   <author>
     <name>Jan Hovancik</name>
   </author>
+  <entry>
+    <title>Stretchly 1.5 released</title>
+    <link rel="alternate" href="http://hovancik.net/blog/2021/04/07/stretchly-1-5-released/"/>
+    <id>http://hovancik.net/blog/2021/04/07/stretchly-1-5-released/</id>
+    <published>2021-04-07T01:00:00+00:00</published>
+    <updated>2021-04-07T06:22:21+00:00</updated>
+    <author>
+      <name>Jan Hovancik</name>
+    </author>
+    <content type="html">&lt;p&gt;Hi everyone,&lt;/p&gt;
+
+&lt;p&gt;I am really happy to announce, that &lt;strong&gt;version 1.5 of &lt;a href="/stretchly"&gt;&lt;em&gt;Stretchly&lt;/em&gt;&lt;/a&gt; is here!&lt;/strong&gt; You can download it from &lt;a href="/stretchly/downloads"&gt;downloads&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;p&gt;Thanks to everyone for their &lt;a href="/stretchly/sponsor"&gt;support&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h3 id="added"&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Punjabi translations&lt;/li&gt;
+  &lt;li&gt;Gujarati translations&lt;/li&gt;
+  &lt;li&gt;Persian translations&lt;/li&gt;
+  &lt;li&gt;Hebrew translations&lt;/li&gt;
+  &lt;li&gt;Finnish translations&lt;/li&gt;
+  &lt;li&gt;Indonesian translations&lt;/li&gt;
+  &lt;li&gt;Latvian translations&lt;/li&gt;
+  &lt;li&gt;Contributor preference option to make Stretchly act as a regular window&lt;/li&gt;
+  &lt;li&gt;Advanced preferences for app exclusions (resume/pause when specific app is/not running)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="changed"&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Updated many translations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="fixed"&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Improved Welcome window&lt;/li&gt;
+  &lt;li&gt;tray menu not visible over break window on macOS&lt;/li&gt;
+  &lt;li&gt;tray status messages in specific situations&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>Introducing LaterOn - The reminder app</title>
     <link rel="alternate" href="http://hovancik.net/blog/2021/04/03/introducing-lateron-the-reminder-app/"/>
     <id>http://hovancik.net/blog/2021/04/03/introducing-lateron-the-reminder-app/</id>
     <published>2021-04-03T08:10:00+00:00</published>
-    <updated>2021-04-07T06:16:01+00:00</updated>
+    <updated>2021-04-07T06:22:21+00:00</updated>
     <author>
       <name>Jan Hovancik</name>
     </author>
@@ -60,7 +101,7 @@
     <link rel="alternate" href="http://hovancik.net/blog/2021/02/13/2020-top-discoverbsd-and-bsdsec-articles/"/>
     <id>http://hovancik.net/blog/2021/02/13/2020-top-discoverbsd-and-bsdsec-articles/</id>
     <published>2021-02-13T14:45:00+00:00</published>
-    <updated>2021-04-07T06:16:01+00:00</updated>
+    <updated>2021-04-07T06:22:21+00:00</updated>
     <author>
       <name>Jan Hovancik</name>
     </author>
@@ -97,7 +138,7 @@
     <link rel="alternate" href="http://hovancik.net/blog/2020/12/25/stretchly-1-4-0-is-now-available/"/>
     <id>http://hovancik.net/blog/2020/12/25/stretchly-1-4-0-is-now-available/</id>
     <published>2020-12-25T08:00:00+00:00</published>
-    <updated>2021-04-07T06:16:01+00:00</updated>
+    <updated>2021-04-07T06:22:21+00:00</updated>
     <author>
       <name>Jan Hovancik</name>
     </author>
@@ -135,7 +176,7 @@
     <link rel="alternate" href="http://hovancik.net/blog/2020/11/08/stretchly-1-3-0-is-now-available/"/>
     <id>http://hovancik.net/blog/2020/11/08/stretchly-1-3-0-is-now-available/</id>
     <published>2020-11-08T08:00:00+00:00</published>
-    <updated>2021-04-07T06:16:01+00:00</updated>
+    <updated>2021-04-07T06:22:21+00:00</updated>
     <author>
       <name>Jan Hovancik</name>
     </author>
@@ -174,7 +215,7 @@
     <link rel="alternate" href="http://hovancik.net/blog/2020/10/12/few-things-i-learned-in-first-3-months-as-a-proxy-product-owner/"/>
     <id>http://hovancik.net/blog/2020/10/12/few-things-i-learned-in-first-3-months-as-a-proxy-product-owner/</id>
     <published>2020-10-12T16:08:00+00:00</published>
-    <updated>2021-04-07T06:16:01+00:00</updated>
+    <updated>2021-04-07T06:22:21+00:00</updated>
     <author>
       <name>Jan Hovancik</name>
     </author>
@@ -220,7 +261,7 @@
     <link rel="alternate" href="http://hovancik.net/blog/2020/10/03/stretchly-is-now-available-in-snap-store/"/>
     <id>http://hovancik.net/blog/2020/10/03/stretchly-is-now-available-in-snap-store/</id>
     <published>2020-10-03T11:29:00+00:00</published>
-    <updated>2021-04-07T06:16:01+00:00</updated>
+    <updated>2021-04-07T06:22:21+00:00</updated>
     <author>
       <name>Jan Hovancik</name>
     </author>
@@ -238,7 +279,7 @@
     <link rel="alternate" href="http://hovancik.net/blog/2020/10/03/stretchly-1-2-0-released/"/>
     <id>http://hovancik.net/blog/2020/10/03/stretchly-1-2-0-released/</id>
     <published>2020-10-03T05:30:00+00:00</published>
-    <updated>2021-04-07T06:16:01+00:00</updated>
+    <updated>2021-04-07T06:22:21+00:00</updated>
     <author>
       <name>Jan Hovancik</name>
     </author>
@@ -275,7 +316,7 @@
     <link rel="alternate" href="http://hovancik.net/blog/2020/09/12/stretchly-1-1-0-released/"/>
     <id>http://hovancik.net/blog/2020/09/12/stretchly-1-1-0-released/</id>
     <published>2020-09-12T11:37:00+00:00</published>
-    <updated>2021-04-07T06:16:01+00:00</updated>
+    <updated>2021-04-07T06:22:21+00:00</updated>
     <author>
       <name>Jan Hovancik</name>
     </author>
@@ -307,7 +348,7 @@
     <link rel="alternate" href="http://hovancik.net/blog/2020/08/27/working-with-firebase-tools-from-docker-with-docker-compose/"/>
     <id>http://hovancik.net/blog/2020/08/27/working-with-firebase-tools-from-docker-with-docker-compose/</id>
     <published>2020-08-27T17:18:00+00:00</published>
-    <updated>2021-04-07T06:16:01+00:00</updated>
+    <updated>2021-04-07T06:22:21+00:00</updated>
     <author>
       <name>Jan Hovancik</name>
     </author>
@@ -468,7 +509,7 @@ services:
     <link rel="alternate" href="http://hovancik.net/blog/2020/07/18/stretchly-1-0-is-here/"/>
     <id>http://hovancik.net/blog/2020/07/18/stretchly-1-0-is-here/</id>
     <published>2020-07-18T11:22:00+00:00</published>
-    <updated>2021-04-07T06:16:01+00:00</updated>
+    <updated>2021-04-07T06:22:21+00:00</updated>
     <author>
       <name>Jan Hovancik</name>
     </author>
@@ -531,87 +572,6 @@ services:
 &lt;/ul&gt;
 
 &lt;p&gt;Thanks to everyone for support on &lt;a href="https://www.patreon.com/hovancik"&gt;Patreon&lt;/a&gt; and &lt;a href="https://github.com/sponsors/hovancik"&gt;Github&lt;/a&gt;!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>SMS messages from Slovak/Czech government about COVID-19 (Feb-May 2020)</title>
-    <link rel="alternate" href="http://hovancik.net/blog/2020/06/14/sms-messages-from-slovak-czech-government-about-covid-19-feb-may-2020/"/>
-    <id>http://hovancik.net/blog/2020/06/14/sms-messages-from-slovak-czech-government-about-covid-19-feb-may-2020/</id>
-    <published>2020-06-14T18:44:00+00:00</published>
-    <updated>2021-04-07T06:16:01+00:00</updated>
-    <author>
-      <name>Jan Hovancik</name>
-    </author>
-    <content type="html">&lt;p&gt;What follows are the SMS messages that I have received on my Czech and Slovak SIM cards (from respective governments) during February-May 2020 because of the COVID-19 pandemic.&lt;/p&gt;
-
-&lt;p&gt;Maybe someone someday will find them useful :)&lt;/p&gt;
-
-&lt;h3 id="context"&gt;Context&lt;/h3&gt;
-
-&lt;p&gt;I am a Slovak national and all the time I was located in &lt;strong&gt;Prague, Czechia&lt;/strong&gt;, except 4th to 11th March, when I was traveling in &lt;strong&gt;Spain&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Format: &lt;code&gt;Sender&lt;/code&gt;, &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;time&lt;/code&gt; and &lt;code&gt;text&lt;/code&gt; as my phone shows it.&lt;/p&gt;
-
-&lt;h3 id="slovak-sim-card"&gt;Slovak SIM card&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;+421259785978, 27th February 2020, 19:48&lt;/strong&gt;&lt;br /&gt;
-Pre vyskyt koronavirusu odporuca MZVEZ po navrate do SR sledovat svoj zdravotny stav pocas 14 dni. Pri priznakoch nakazy telefonicky kontaktujte lekara.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;+421259785978, 6th March 2020, 18:00&lt;/strong&gt;&lt;br /&gt;
-UPOZORNENIE! Pre narast vyskytu koronavirusu odporuca MZVEZ po navrate do SR sledovat svoj zdravotny stav. Pri priznakoch nakazy TELEFONICKY kontaktujte lekara.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;MZ_SR, 7th March 2020, 13:51&lt;/strong&gt;&lt;br /&gt;
-Dolezite! Pre koronavirus nechodte k lekarovi osobne,ak to nie je nutne.Vyuzite predpisovanie liekov cez e-recept,liek si vyzdvihnete v ktorejkolvek lekarni.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;MZ_SR, 7th March 2020, 14:13&lt;/strong&gt;&lt;br /&gt;
-Dolezite! V suvislosti s koronavirusom upozornujeme,aby ste pri podozreni kontaktovali lekara len telefonicky.K dispozicii su infolinky a cislo 0800221234.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;+421259785978, 9th March 2020, 20:56&lt;/strong&gt;&lt;br /&gt;
-Upozornenie! Koronavirus: Po navrate z krajin Taliansko, Cina, Juzna Korea a Iran je povinna 14 denna karantena. Telefonicky kontaktujte svojho vseob. lekara.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;+421259785978, 12th March 2020, 20:48&lt;/strong&gt;&lt;br /&gt;
-UPOZORNENIE!Coronavirus   od 13.3.2020 07,00 vsetky osoby prichadzajuce zo zahranicia do SR su povinne zostat v karantene 14 dni. Viac info: www.uvzsr.sk&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;+421259785978, 12th March 2020, 21:45&lt;/strong&gt;&lt;br /&gt;
-Upozornenie!Coronavirus-Od 13.3. s  medzinarodne letiska v SR uzavrete,platia obmedzenia v medzinarodnej zeleznicnej a autobusovej doprave tranzitujucej SR.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;MV_SR, 13th March 2020, 14:17&lt;/strong&gt;&lt;br /&gt;
-Upozornenie!!! Koronavirus: Ak ste prisli zo zahranicia, dodrzujte povinnu 14-dnovu karantenu! Za nedodrzanie je sankcia 1659 eur.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;+421259785978, 13th March 2020, 23:45&lt;/strong&gt;&lt;br /&gt;
-KORONAVIRUS! Z dovodu dynamickeho zavadzania obmedzeni pri cestovani v zahranici odporucame sledovat http://www.mzv.sk/aktuality/koronavirus-2019&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;+421259785978, 28th March 2020, 18:12&lt;/strong&gt;&lt;br /&gt;
-Cesko od polnoci 30.3.2020 do odvolania obmedzuje podmienky tranzitu svojim uzemim. Pre viac info sledujte webstranku najblizsieho zastupitelskeho uradu SR.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;+421259785978, 6th April 2020, 06:03&lt;/strong&gt;&lt;br /&gt;
-Osoby vstupujuce do SR od 6.4.2020, 7:00 budu v izolacii v statnych zariadeniach. Registrujte sa na navraty.mzv.sk. Vynimky najdete na covid19.mzv.sk&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Urad_VZ, 15th April 2020, 18:39&lt;/strong&gt;&lt;br /&gt;
-Dakujeme, ze ste boli ste cez sviatky doma. Jedina ochrana pred pandemiou je len nasa disciplina. Vydrzme, zvladneme to! Dakujeme. Urad verej. zdravotnictva&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;+421259785978, 17th April 2020, 19:48&lt;/strong&gt;&lt;br /&gt;
-UPOZORNENIE: registraciu pred prichodom do SR na stranke navraty.mzv.sk je potrebne od 20.4. vykonat najneskor 72hod pred planovanym prichodom na hranicu.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;+421259785978, 1st May 2020, 10:12&lt;/strong&gt;&lt;br /&gt;
-Vzhladom na naplnene kapacity v statnej karantene, zvazte nevyhnutnost cestovania do SR.&lt;/p&gt;
-
-&lt;h3 id="czech-sim-card"&gt;Czech SIM card&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;4603, 5th March 2020, 10:55&lt;/strong&gt;&lt;br /&gt;
-Sdeleni MZCR: Dobry den, cestujete-li do zeme se zvysenym vyskytem koronaviru (aktualni prehled na www.mzcr.cz), dodrzujte pokyny daneho statu a nezapomente na doporuceni uvedena na webu MZCR. Dekuji. Ministr zdravotnictvi CR&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4603, 11th March 2020, 15:54&lt;/strong&gt;&lt;br /&gt;
-Sdeleni MZCR: Vitejte zpet v CR. Vsem, kdo prijizdeji z Italie, je v dusledku mimoradneho opatreni narizena 14denni karantena. Cestujici, kteri nemaji zadne priznaky, maji povinnost kontaktovat TELEFONICKY sveho osetrujiciho lekare. Je nezbytne, abyste od sveho prijezdu po celou dobu zustali v karantene! Cestujici (bez ohledu na vychozi destinaci), kteri maji teplotu nad 38C, BUDOU IHNED TELEFONICKY KONTAKTOVAT LINKU 112. Vice informaci na www.mzcr.cz. Dekuji. Ministr zdravotnictvi CR&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4603, 14th March 2020, 14:16&lt;/strong&gt;&lt;br /&gt;
-Sdeleni Vlady CR: Do 24. 3. budou uzavreny vsechny obchody, S VYJIMKOU prodejen potravin, lekaren, drogerii, prodejen operatoru a dalsich. Podrobnosti vlada.cz&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4603, 16th March 2020, 16:46&lt;/strong&gt;&lt;br /&gt;
-Sdeleni Vlady CR: Kvuli sireni koronaviru je do 24.3. omezen volny pohyb osob s vyjimkou cest do zamestnani, potravin, aj. Dalsi vyjimky na vlada.cz. Dekujeme.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4603, 16th March 2020, 21:28&lt;/strong&gt;&lt;br /&gt;
-Sdeleni Vlady CR: Kvuli sireni koronaviru je do 24.3. omezen volny pohyb osob s vyjimkou cest do zamestnani, potravin, aj. Dalsi vyjimky na vlada.cz. Dekujeme.&lt;/p&gt;
 </content>
   </entry>
 </feed>
