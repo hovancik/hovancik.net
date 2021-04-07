@@ -139,7 +139,7 @@
 <h4 id="editing-break-ideas">Editing Break ideas</h4>
 <p>In the preferences file, change <code>useIdeasFromSettings: false,</code> to <code>useIdeasFromSettings: true,</code> and edit <code>breakIdeas</code> and <code>microbreakIdeas</code>.</p>
 
-<p>Note that when a new <em>Stretchly</em> version with new break ideas is out, your custom ideas will not be overwritten.</p>
+<p>Note that when a new <em>Stretchly</em> version with new break ideas is out, your custom ideas will not be overwritten. You can reset break ideas to the latest defaults when you "Restore defaults" from Preferences window.</p>
 
 <h4 id="editing-break-notification-interval-">Editing Break notification interval <a href="#contributor-preferences"><img src="https://img.shields.io/badge/Contributor_Preferences-✔-success" alt="Contributor Preferences" /></a></h4>
 
@@ -186,6 +186,44 @@ E.g. if you live in Boston you would set:<br />
 
 <h4 id="check-for-new-version">Check for new version</h4>
 <p>If you don't want to ever check for new version, set <code>checkNewVersion</code> to <code>false</code>.</p>
+
+<h4 id="make-stretchly-show-breaks-as-regular-windows-">Make Stretchly show breaks as regular windows <a href="#contributor-preferences"><img src="https://img.shields.io/badge/Contributor_Preferences-✔-success" alt="Contributor Preferences" /></a></h4>
+
+<p>If you want Stretchly breaks to act as regular windows (have a titlebar, turn off always on top, be minimizable and focusable) set <code>showBreaksAsRegularWindows</code> to <code>true</code>.</p>
+
+<h4 id="pauseresume-breaks-only-when-specific-command-is-running-">Pause/resume breaks only when specific command is running <a href="#contributor-preferences"><img src="https://img.shields.io/badge/Contributor_Preferences-✔-success" alt="Contributor Preferences" /></a></h4>
+
+<p>By editing <code>appExclusions</code> in preferences file, you can automatically control when Stretchly breaks are paused.</p>
+
+<p>If you want Stretchly to be paused when specific apps are running, you could have this value (breaks are paused when Skype or Atom are running):</p>
+
+<pre><code>"appExclusions": [
+    {
+        "rule": "pause",
+        "active": true,
+        "commands": [
+            "/usr/share/skypeforlinux/skypeforlinux",
+            "atom"
+        ]
+    }
+]
+</code></pre>
+
+<p>If you want Stretchly to be running when specific apps are as well, you could have this value (breaks are paused when Skype or Atom are not running):</p>
+
+<pre><code>"appExclusions": [
+    {
+        "rule": "resume",
+        "active": true,
+        "commands": [
+            "/usr/share/skypeforlinux/skypeforlinux",
+            "atom"
+        ]
+    }
+]
+</code></pre>
+
+<p>You can specify multiple values, (as <code>appExclusions</code> is array) and Stretchly will take the first one that is marked as <code>"active": true</code>. Multiple <code>commands</code> can be specified as well.</p>
 
 <h2 id="contributor-preferences">Contributor Preferences</h2>
 <p><em>Stretchly</em> is free but you can support it by contributing code, translations or money. You will be rewarded by getting access to <strong>Contributor Preferences</strong>, ability to <strong>Sync Preferences</strong>, chat on <strong>Discord</strong> and more!</p>
@@ -282,13 +320,24 @@ Format as following:</p>
 
 <h2 id="known-issues">Known issues</h2>
 <ul>
-  <li>users who upgraded to Windows 10 from previous Windows versions might be in "Do Not Disturb mode" all the time so they need to check "Show breaks even in Do Not Disturb mode"</li>
-  <li>tray tooltip does not work correctly on macOS (<a href="https://github.com/electron/electron/issues/9447">electron/electron#9447</a>)</li>
-  <li>tray tooltip does not work correctly on Linux (<a href="https://github.com/electron/electron/issues/15161">electron/electron#15161</a>)</li>
-  <li>fullscreen is not shown on all displays on Windows (<a href="https://github.com/electron/electron/issues/16907">electron/electron#16907</a>)</li>
   <li>power monitoring not working properly (<a href="https://github.com/electron/electron/issues/8560">electron/electron#8560</a>)</li>
-  <li>tray icon is not always rendered correctly on Linux (<a href="https://github.com/electron/electron/issues/12791">electron/electron#12791</a>)</li>
-  <li>users on macOS experiencing their Dock hiding after a break, requiring command + tab or a mouse click to get focus back, check System Preferences &gt; Users &amp; Groups &gt; {User} &gt; Login Items. If Hide is checked for Stretchly, uncheck it, it should solve the issue.</li>
+</ul>
+
+<h3 id="macos">MacOS</h3>
+<ul>
+  <li>users experiencing their Dock hiding after a break, requiring command + tab or a mouse click to get focus back, check System Preferences &gt; Users &amp; Groups &gt; {User} &gt; Login Items. If Hide is checked for Stretchly, uncheck it, it should solve the issue.</li>
+</ul>
+
+<h3 id="linux">Linux</h3>
+<ul>
+  <li>tray tooltip does not work correctly (<a href="https://github.com/electron/electron/issues/15161">electron/electron#15161</a>)</li>
+  <li>tray icon is not always rendered correctly (<a href="https://github.com/electron/electron/issues/12791">electron/electron#12791</a>)</li>
+</ul>
+
+<h3 id="windows">Windows</h3>
+<ul>
+  <li>users who upgraded to Windows 10 from previous Windows versions might be in "Do Not Disturb mode" all the time so they need to check "Show breaks even in Do Not Disturb mode"</li>
+  <li>users with Chromium-based browser (Chrome, Edge, etc…) <a href="https://github.com/hovancik/stretchly/issues/783#issuecomment-762819646">might need to set some flags</a> when browser is non-responsive after break</li>
 </ul>
 
 <h2 id="contributors">Contributors</h2>
@@ -351,6 +400,9 @@ Format as following:</p>
   <li>Benedikt Allendorf, <a href="https://github.com/BenediktAllendorf">@BenediktAllendorf</a></li>
   <li>Haechan Song, <a href="https://github.com/hcsong213">@hcsong213</a></li>
   <li>Will, <a href="https://github.com/qubist">@qubist</a></li>
+  <li>Abhilash Mandaliya, <a href="https://github.com/abhilashmandaliya">@abhilashmandaliya</a></li>
+  <li>Masi, <a href="https://github.com/The-Coding-Classroom">@The-Coding-Classroom</a></li>
+  <li>Saksham Sharma, <a href="https://github.com/ssaksham">@ssaksham</a></li>
 </ul>
 
 <p>Also see Github's list of <a href="https://github.com/hovancik/stretchly/graphs/contributors">contributors</a>.</p>
@@ -359,6 +411,7 @@ Format as following:</p>
 
 <h2 id="humans-and-tools">Humans and Tools</h2>
 <ul>
+  <li>https://github.com/HatScripts/circle-flags</li>
   <li>https://www.icoconverter.com/ to generate .ico</li>
   <li>http://www.img2icnsapp.com/ to create .icns</li>
   <li>https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/</li>
