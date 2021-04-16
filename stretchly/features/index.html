@@ -184,14 +184,11 @@ E.g. if you live in Boston you would set:<br />
 <h4 id="break-window-size-">Break window size <a href="#contributor-preferences"><img src="https://img.shields.io/badge/Contributor_Preferences-✔-success" alt="Contributor Preferences" /></a></h4>
 <p>To specify the size of the break window, set the value of <code>breakWindowHeight</code> and <code>breakWindowWidth</code> from <code>0</code> to <code>0.99</code> (which is in turn 0 to 99% of the size of the screen). Don't set 100% as that's fullscreen.</p>
 
-<h4 id="check-for-new-version">Check for new version</h4>
-<p>If you don't want to ever check for new version, set <code>checkNewVersion</code> to <code>false</code>.</p>
-
 <h4 id="make-stretchly-show-breaks-as-regular-windows-">Make Stretchly show breaks as regular windows <a href="#contributor-preferences"><img src="https://img.shields.io/badge/Contributor_Preferences-✔-success" alt="Contributor Preferences" /></a></h4>
 
 <p>If you want Stretchly breaks to act as regular windows (have a titlebar, turn off always on top, be minimizable and focusable) set <code>showBreaksAsRegularWindows</code> to <code>true</code>.</p>
 
-<h4 id="pauseresume-breaks-only-when-specific-command-is-running-">Pause/resume breaks only when specific command is running <a href="#contributor-preferences"><img src="https://img.shields.io/badge/Contributor_Preferences-✔-success" alt="Contributor Preferences" /></a></h4>
+<h4 id="pauseresume-breaks-only-when-specific-command-is-running">Pause/resume breaks only when specific command is running</h4>
 
 <p>By editing <code>appExclusions</code> in preferences file, you can automatically control when Stretchly breaks are paused.</p>
 
@@ -223,7 +220,10 @@ E.g. if you live in Boston you would set:<br />
 ]
 </code></pre>
 
-<p>You can specify multiple values, (as <code>appExclusions</code> is array) and Stretchly will take the first one that is marked as <code>"active": true</code>. Multiple <code>commands</code> can be specified as well.</p>
+<p>You can specify multiple values, (as <code>appExclusions</code> is array) and Stretchly will take the first one that is marked as <code>"active": true</code>. Multiple <code>commands</code> can be specified as well. They are case sensitive.</p>
+
+<h4 id="pause-breaks-on-suspendlock">Pause breaks on Suspend/Lock</h4>
+<p>If you don't want to reset breaks once system is back from Suspend/Lock, set <code>pauseForSuspendOrLock</code> to <code>false</code>.</p>
 
 <h2 id="contributor-preferences">Contributor Preferences</h2>
 <p><em>Stretchly</em> is free but you can support it by contributing code, translations or money. You will be rewarded by getting access to <strong>Contributor Preferences</strong>, ability to <strong>Sync Preferences</strong>, chat on <strong>Discord</strong> and more!</p>
