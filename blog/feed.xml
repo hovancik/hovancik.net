@@ -5,16 +5,50 @@
   <id>http://hovancik.net/blog</id>
   <link href="http://hovancik.net/blog"/>
   <link href="http://hovancik.net/blog/feed.xml" rel="self"/>
-  <updated>2021-04-22T09:32:00+00:00</updated>
+  <updated>2021-05-04T13:28:00+00:00</updated>
   <author>
     <name>Jan Hovancik</name>
   </author>
+  <entry>
+    <title>Stretchly 1.7 is available</title>
+    <link rel="alternate" href="http://hovancik.net/blog/2021/05/04/stretchly-1-7-is-available/"/>
+    <id>http://hovancik.net/blog/2021/05/04/stretchly-1-7-is-available/</id>
+    <published>2021-05-04T13:28:00+00:00</published>
+    <updated>2021-05-04T15:23:10+00:00</updated>
+    <author>
+      <name>Jan Hovancik</name>
+    </author>
+    <content type="html">&lt;p&gt;Hi everyone,&lt;/p&gt;
+
+&lt;p&gt;I am really happy to announce, that &lt;strong&gt;version 1.7 of &lt;a href="/stretchly"&gt;&lt;em&gt;Stretchly&lt;/em&gt;&lt;/a&gt; is here!&lt;/strong&gt; You can download it from &lt;a href="/stretchly/downloads"&gt;downloads&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;p&gt;Thanks to everyone for their &lt;a href="/stretchly/sponsor"&gt;support&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h3 id="added"&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;advanced preferences for Pause/Resume Breaks global shortcuts&lt;/li&gt;
+  &lt;li&gt;advanced preferences for picking monitor to show break on&lt;/li&gt;
+  &lt;li&gt;added initial support for the RTL languages for the UI&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="changed"&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;endBreakShortcut can be set to empty string, thus disabled&lt;/li&gt;
+  &lt;li&gt;updated many translations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="fixed"&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;prevent memory leak after break has ended&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>LaterOn 0.0.4 is now available</title>
     <link rel="alternate" href="http://hovancik.net/blog/2021/04/22/lateron-0-0-4-is-now-available/"/>
     <id>http://hovancik.net/blog/2021/04/22/lateron-0-0-4-is-now-available/</id>
     <published>2021-04-22T09:32:00+00:00</published>
-    <updated>2021-04-22T09:50:49+00:00</updated>
+    <updated>2021-05-04T15:23:10+00:00</updated>
     <author>
       <name>Jan Hovancik</name>
     </author>
@@ -34,7 +68,7 @@
     <link rel="alternate" href="http://hovancik.net/blog/2021/04/16/stretchly-1-6-0-is-now-available/"/>
     <id>http://hovancik.net/blog/2021/04/16/stretchly-1-6-0-is-now-available/</id>
     <published>2021-04-16T07:24:00+00:00</published>
-    <updated>2021-04-22T09:50:49+00:00</updated>
+    <updated>2021-05-04T15:23:10+00:00</updated>
     <author>
       <name>Jan Hovancik</name>
     </author>
@@ -71,7 +105,7 @@
     <link rel="alternate" href="http://hovancik.net/blog/2021/04/07/stretchly-1-5-released/"/>
     <id>http://hovancik.net/blog/2021/04/07/stretchly-1-5-released/</id>
     <published>2021-04-07T01:00:00+00:00</published>
-    <updated>2021-04-22T09:50:49+00:00</updated>
+    <updated>2021-05-04T15:23:10+00:00</updated>
     <author>
       <name>Jan Hovancik</name>
     </author>
@@ -112,7 +146,7 @@
     <link rel="alternate" href="http://hovancik.net/blog/2021/04/03/introducing-lateron-the-reminder-app/"/>
     <id>http://hovancik.net/blog/2021/04/03/introducing-lateron-the-reminder-app/</id>
     <published>2021-04-03T08:10:00+00:00</published>
-    <updated>2021-04-22T09:50:49+00:00</updated>
+    <updated>2021-05-04T15:23:10+00:00</updated>
     <author>
       <name>Jan Hovancik</name>
     </author>
@@ -158,7 +192,7 @@
     <link rel="alternate" href="http://hovancik.net/blog/2021/02/13/2020-top-discoverbsd-and-bsdsec-articles/"/>
     <id>http://hovancik.net/blog/2021/02/13/2020-top-discoverbsd-and-bsdsec-articles/</id>
     <published>2021-02-13T14:45:00+00:00</published>
-    <updated>2021-04-22T09:50:49+00:00</updated>
+    <updated>2021-05-04T15:23:10+00:00</updated>
     <author>
       <name>Jan Hovancik</name>
     </author>
@@ -195,7 +229,7 @@
     <link rel="alternate" href="http://hovancik.net/blog/2020/12/25/stretchly-1-4-0-is-now-available/"/>
     <id>http://hovancik.net/blog/2020/12/25/stretchly-1-4-0-is-now-available/</id>
     <published>2020-12-25T08:00:00+00:00</published>
-    <updated>2021-04-22T09:50:49+00:00</updated>
+    <updated>2021-05-04T15:23:10+00:00</updated>
     <author>
       <name>Jan Hovancik</name>
     </author>
@@ -233,7 +267,7 @@
     <link rel="alternate" href="http://hovancik.net/blog/2020/11/08/stretchly-1-3-0-is-now-available/"/>
     <id>http://hovancik.net/blog/2020/11/08/stretchly-1-3-0-is-now-available/</id>
     <published>2020-11-08T08:00:00+00:00</published>
-    <updated>2021-04-22T09:50:49+00:00</updated>
+    <updated>2021-05-04T15:23:10+00:00</updated>
     <author>
       <name>Jan Hovancik</name>
     </author>
@@ -272,7 +306,7 @@
     <link rel="alternate" href="http://hovancik.net/blog/2020/10/12/few-things-i-learned-in-first-3-months-as-a-proxy-product-owner/"/>
     <id>http://hovancik.net/blog/2020/10/12/few-things-i-learned-in-first-3-months-as-a-proxy-product-owner/</id>
     <published>2020-10-12T16:08:00+00:00</published>
-    <updated>2021-04-22T09:50:49+00:00</updated>
+    <updated>2021-05-04T15:23:10+00:00</updated>
     <author>
       <name>Jan Hovancik</name>
     </author>
@@ -318,7 +352,7 @@
     <link rel="alternate" href="http://hovancik.net/blog/2020/10/03/stretchly-is-now-available-in-snap-store/"/>
     <id>http://hovancik.net/blog/2020/10/03/stretchly-is-now-available-in-snap-store/</id>
     <published>2020-10-03T11:29:00+00:00</published>
-    <updated>2021-04-22T09:50:49+00:00</updated>
+    <updated>2021-05-04T15:23:10+00:00</updated>
     <author>
       <name>Jan Hovancik</name>
     </author>
@@ -336,7 +370,7 @@
     <link rel="alternate" href="http://hovancik.net/blog/2020/10/03/stretchly-1-2-0-released/"/>
     <id>http://hovancik.net/blog/2020/10/03/stretchly-1-2-0-released/</id>
     <published>2020-10-03T05:30:00+00:00</published>
-    <updated>2021-04-22T09:50:49+00:00</updated>
+    <updated>2021-05-04T15:23:10+00:00</updated>
     <author>
       <name>Jan Hovancik</name>
     </author>
@@ -363,38 +397,6 @@
 &lt;ul&gt;
   &lt;li&gt;fullscreen breaks (Windows)&lt;/li&gt;
   &lt;li&gt;downgraded Electron and disabled macOS dock icon to fix fullscreen issues&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Thanks to everyone for support on &lt;a href="https://www.patreon.com/hovancik"&gt;Patreon&lt;/a&gt; and &lt;a href="https://github.com/sponsors/hovancik"&gt;Github&lt;/a&gt;!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Stretchly 1.1.0 released</title>
-    <link rel="alternate" href="http://hovancik.net/blog/2020/09/12/stretchly-1-1-0-released/"/>
-    <id>http://hovancik.net/blog/2020/09/12/stretchly-1-1-0-released/</id>
-    <published>2020-09-12T11:37:00+00:00</published>
-    <updated>2021-04-22T09:50:49+00:00</updated>
-    <author>
-      <name>Jan Hovancik</name>
-    </author>
-    <content type="html">&lt;p&gt;Hi everyone,&lt;/p&gt;
-
-&lt;p&gt;I am really happy to announce, that &lt;strong&gt;version 1.1 of &lt;a href="/stretchly"&gt;&lt;em&gt;Stretchly&lt;/em&gt;&lt;/a&gt; is here!&lt;/strong&gt; You can download it from &lt;a href="/stretchly/downloads"&gt;downloads&lt;/a&gt; page.&lt;/p&gt;
-
-&lt;h3 id="added"&gt;Added&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;show Contributor Settings in tray menu for Contributors&lt;/li&gt;
-  &lt;li&gt;breaks are paused if the Windows 10 Focus Assist mode is enabled&lt;/li&gt;
-  &lt;li&gt;added log file for debug&lt;/li&gt;
-  &lt;li&gt;users can choose between a transparent or a fully opaque theme in the Theme Preferences&lt;/li&gt;
-  &lt;li&gt;users can choose the opacity value for the transparent theme in the Contributor Preferences&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="changed"&gt;Changed&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;updated few translations&lt;/li&gt;
-  &lt;li&gt;bigger range for Mini Break duration&lt;/li&gt;
-  &lt;li&gt;preferences navigation menu visible when scrolling down&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Thanks to everyone for support on &lt;a href="https://www.patreon.com/hovancik"&gt;Patreon&lt;/a&gt; and &lt;a href="https://github.com/sponsors/hovancik"&gt;Github&lt;/a&gt;!&lt;/p&gt;

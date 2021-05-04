@@ -76,7 +76,7 @@
 
 <h3 id="default-behavior">Default behavior</h3>
 
-<p>When you run <em>Stretchly</em> for the first time, you are presented with a Welcome window that allows you to change the language, review the settings, view the online tutorial or simply continue with the default settings.</p>
+<p>When you run <em>Stretchly</em> for the first time, you are presented with a Welcome window that allows you to change the language, review the preferences, view the online tutorial or simply continue with the default preferences.</p>
 
 <p><img src="../img/welcome.png" style="height:500px;" /></p>
 
@@ -132,7 +132,11 @@
 
 <p>To make sure that all works as expected, it's always good idea to check that format of the preferences file is correct, ie. by using <a href="https://jsonformatter.curiousconcept.com/">jsonformatter</a>.</p>
 
-<p>Some of the extra settings are available in Contributor Preferences for <a href="#contributor-preferences">Contributors</a>. Those are marked by <a href="#contributor-preferences"><img src="https://img.shields.io/badge/Contributor_Preferences-✔-success" alt="Contributor Preferences" /></a> badge.</p>
+<p>After you make changes to preferences files, some of the values being shown in Preferences or elsewhere might show incorect value, as the UI is expecting specific values and is not handling cases where user makes manual changes to preferences file.</p>
+
+<p>Some of the extra preferences are available in Contributor Preferences for <a href="#contributor-preferences">Contributors</a>. Those are marked by <a href="#contributor-preferences"><img src="https://img.shields.io/badge/Contributor_Preferences-✔-success" alt="Contributor Preferences" /></a> badge.</p>
+
+<p>Preferences marked with <img src="https://img.shields.io/badge/Not_Reliable-β-yellow" alt="Not Reliable" /> might not work correctly and might break <em>Stretchly</em>. Use at own risk.</p>
 
 <p><strong>Note:</strong> Before 1.0, Mini Breaks and Long Breaks were called Microbreaks and Breaks, respectively. To keep the upgrade smooth they still use that name in preferences file and in code.</p>
 
@@ -148,7 +152,7 @@
 <h4 id="editing-sunrise-time-to-pause-breaks-until-morning">Editing sunrise time to pause breaks until morning</h4>
 <p>In the preferences file you can set the <code>morningHour</code> setting to pause until that hour today or the next day<br />
 Otherwise, you can set <code>morningHour: "sunrise"</code> and set <code>posLatitude</code>, <code>posLongitude</code> in<br />
-settings to pause until the actual sunrise in your area.<br />
+preferences to pause until the actual sunrise in your area.<br />
 E.g. if you live in Boston you would set:<br />
 <code>morningHour: "sunrise",</code><br />
 <code>posLatitude: 42.3,</code><br />
@@ -170,7 +174,23 @@ E.g. if you live in Boston you would set:<br />
 <p>In the preferences file, set <code>volume</code> to your preferred value. Default value is <code>1</code>, which is 100% volume. Set it, for example, to <code>0.61</code> for 61% volume.</p>
 
 <h4 id="postponefinish-break-shortcut">Postpone/Finish Break Shortcut</h4>
-<p>In the preferences file, set <code>endBreakShortcut</code> to your preferred value. We do not validate this input, so please check <a href="https://www.electronjs.org/docs/api/accelerator">Electron's documentation</a> for available values for key and modifier.</p>
+<p>In the preferences file, set <code>endBreakShortcut</code> to your preferred value. We do not validate this input, so please check <a href="https://www.electronjs.org/docs/api/accelerator">Electron's documentation</a> for available values for key and modifier. When a given accelerator is already taken by other applications, this call will silently fail. This behavior is intended by operating systems, since they don't want applications to fight for global shortcuts.</p>
+
+<p>If you'd like to disable the shortcut, set value to empty string <code>""</code>.</p>
+
+<p>Default value is <code>CmdOrCtrl+X</code>.</p>
+
+<h4 id="pause-breaks-shortcut">Pause Breaks Shortcut</h4>
+
+<p>In the preferences file, set <code>pauseBreaksShortcut</code> to your preferred value. We do not validate this input, so please check <a href="https://www.electronjs.org/docs/api/accelerator">Electron's documentation</a> for available values for key and modifier. When a given accelerator is already taken by other applications, this call will silently fail. This behavior is intended by operating systems, since they don't want applications to fight for global shortcuts.</p>
+
+<p>If you'd like to disable the shortcut, set value to empty string <code>""</code>. That's the default value as well.</p>
+
+<h4 id="resume-breaks-shortcut">Resume Breaks Shortcut</h4>
+
+<p>In the preferences file, set <code>resumeBreaksShortcut</code> to your preferred value. We do not validate this input, so please check <a href="https://www.electronjs.org/docs/api/accelerator">Electron's documentation</a> for available values for key and modifier. When a given accelerator is already taken by other applications, this call will silently fail. This behavior is intended by operating systems, since they don't want applications to fight for global shortcuts.</p>
+
+<p>If you'd like to disable the shortcut, set value to empty string <code>""</code>. That's the default value as well.</p>
 
 <h4 id="appearance-">Appearance <a href="#contributor-preferences"><img src="https://img.shields.io/badge/Contributor_Preferences-✔-success" alt="Contributor Preferences" /></a></h4>
 <p>In the preferences file, change <code>themeSource: 'system'</code> to either <code>'light'</code> or <code>'dark'</code> to always use the specified theme.</p>
@@ -184,7 +204,7 @@ E.g. if you live in Boston you would set:<br />
 <h4 id="break-window-size-">Break window size <a href="#contributor-preferences"><img src="https://img.shields.io/badge/Contributor_Preferences-✔-success" alt="Contributor Preferences" /></a></h4>
 <p>To specify the size of the break window, set the value of <code>breakWindowHeight</code> and <code>breakWindowWidth</code> from <code>0</code> to <code>0.99</code> (which is in turn 0 to 99% of the size of the screen). Don't set 100% as that's fullscreen.</p>
 
-<h4 id="make-stretchly-show-breaks-as-regular-windows-">Make Stretchly show breaks as regular windows <a href="#contributor-preferences"><img src="https://img.shields.io/badge/Contributor_Preferences-✔-success" alt="Contributor Preferences" /></a></h4>
+<h4 id="make-stretchly-show-breaks-as-regular-windows--">Make Stretchly show breaks as regular windows <a href="#contributor-preferences"><img src="https://img.shields.io/badge/Contributor_Preferences-✔-success" alt="Contributor Preferences" /></a> <img src="https://img.shields.io/badge/Not_Reliable-β-yellow" alt="Not Reliable" /></h4>
 
 <p>If you want Stretchly breaks to act as regular windows (have a titlebar, turn off always on top, be minimizable and focusable) set <code>showBreaksAsRegularWindows</code> to <code>true</code>.</p>
 
@@ -222,8 +242,18 @@ E.g. if you live in Boston you would set:<br />
 
 <p>You can specify multiple values, (as <code>appExclusions</code> is array) and Stretchly will take the first one that is marked as <code>"active": true</code>. Multiple <code>commands</code> can be specified as well. They are case sensitive.</p>
 
-<h4 id="pause-breaks-on-suspendlock">Pause breaks on Suspend/Lock</h4>
+<h4 id="pause-breaks-on-suspendlock-">Pause breaks on Suspend/Lock <img src="https://img.shields.io/badge/Not_Reliable-β-yellow" alt="Not Reliable" /></h4>
+
 <p>If you don't want to reset breaks once system is back from Suspend/Lock, set <code>pauseForSuspendOrLock</code> to <code>false</code>.</p>
+
+<h4 id="monitor-to-show-breaks-on-">Monitor to show breaks on <img src="https://img.shields.io/badge/Not_Reliable-β-yellow" alt="Not Reliable" /></h4>
+
+<p>In case you have disabled showing of breaks on all monitors, you can specify which one should contain the break window. Set <code>screen</code> value to one of the following:</p>
+<ul>
+  <li><code>"primary"</code> - primary monitor as given by OS</li>
+  <li><code>"cursor"</code> - monitor where there is cursor</li>
+  <li><code>"0"</code> (or <code>0</code>), <code>"1"</code>, <code>"2"</code> etc, where <code>"0"</code> is the first monitor returned by OS and so forth</li>
+</ul>
 
 <h2 id="contributor-preferences">Contributor Preferences</h2>
 <p><em>Stretchly</em> is free but you can support it by contributing code, translations or money. You will be rewarded by getting access to <strong>Contributor Preferences</strong>, ability to <strong>Sync Preferences</strong>, chat on <strong>Discord</strong> and more!</p>
@@ -294,19 +324,20 @@ You won't be able to chat on Discord.</em></p>
 <p>Read on.</p>
 
 <h3 id="debugging">Debugging</h3>
-<p>If you start <em>Stretchly</em> in development mode with the <code>npm run dev</code> command, it makes it possible to debug the application in your browser on <code>http://localhost:9222</code>.</p>
 
-<p>Also, you can use Stretchly's built-in debug shortcut by pressing <code>Ctrl/Cmd + D</code> in the About section to show information such as:</p>
+<p>You can use Stretchly's built-in debug shortcut by pressing <code>Ctrl/Cmd + D</code> in the About section to show information such as:</p>
 <ul>
-  <li>Location of the preferences and log file (Clicking on file location will open it.)</li>
+  <li>Location of the Preferences and Log file (Clicking on file location will open it),</li>
   <li>Debug information for break planner</li>
 </ul>
 
 <p>You can copy debug information to the clipboard.</p>
 
+<p>If you start <em>Stretchly</em> in development mode with the <code>npm run dev</code> command, it makes it possible to debug the application in your browser on <code>http://localhost:9222</code>.</p>
+
 <h3 id="logging">Logging</h3>
 
-<p><em>Stretchly</em> uses <code>log</code> package for some extra logging.<br />
+<p><em>Stretchly</em> uses <code>[log](https://github.com/megahertz/electron-log)</code> package for some extra logging.<br />
 Format as following:</p>
 <ul>
   <li><code>System: my message</code> for messages regarding Operating System, ie: <code>System: resume or unlock</code></li>
